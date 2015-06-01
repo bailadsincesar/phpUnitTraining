@@ -9,9 +9,5 @@ class StupidTest extends \PHPUnit_Framework_TestCase {
         $this->assertTrue($foo);
     }
     
-    public function testTrueIsTrue2()
-    {
-        $foo = false;
-        $this->assertTrue($foo);
-    }
+    
 }

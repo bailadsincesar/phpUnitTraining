@@ -1,7 +1,7 @@
 <?php
 namespace phpUnitTutorial;
 
-class Url {
+class URL {
     public function sluggify($string, $separator = '-', $maxLength = 96)
     {
         $title = iconv('UTF-8', 'ASCII//TRANSLIT', $string);
